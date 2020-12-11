@@ -1,0 +1,6 @@
+apiVersion: sdk-sbx.operators.nsk.io/v1
+kind: Instance
+metadata:
+  name: instance-sample
+spec:
+  foo: bar

@@ -1,0 +1,8 @@
+domain: operators.nsk.io
+layout: ansible.sdk.operatorframework.io/v1
+projectName: sdk-sbx
+resources:
+- group: sdk-sbx
+  kind: Instance
+  version: v1
+version: 3-alpha
