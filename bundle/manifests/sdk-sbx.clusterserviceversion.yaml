@@ -106,6 +106,7 @@ spec:
               labels:
                 control-plane: controller-manager
             spec:
+              imagePullPolicy: Always
               containers:
               - args:
                 - --secure-listen-address=0.0.0.0:8443

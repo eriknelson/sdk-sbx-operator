@@ -1,5 +1,5 @@
 ---
-- name: Create hello world namespace
+- name: Create hello world pod
   community.kubernetes.k8s:
     state: present
-    definition: "{{ lookup('template', 'sdk-sbx.namespace.yml.j2') }}"
+    definition: "{{ lookup('template', 'hello-world.pod.yml.j2') }}"
