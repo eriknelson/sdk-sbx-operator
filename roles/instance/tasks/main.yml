@@ -1,2 +1,5 @@
 ---
-# tasks file for Instance
+- name: Create hello world namespace
+  community.kubernetes.k8s:
+    state: present
+    definition: "{{ lookup('template', 'sdk-sbx.namespace.yml.j2') }}"
